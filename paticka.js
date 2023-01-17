@@ -1,1 +1,0 @@
-document.write("&copy; Kočičáci 2014<br>")

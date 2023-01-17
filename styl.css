@@ -4,6 +4,7 @@ body {
   font-family: sans-serif;
   line-height: 140%;
 }
+.nadpis {font-size: 45px; position: absolute; top: 165px; left: 10px; text-decoration: none;}
 .obsah {
   float: right;
   width: 850px;
@@ -98,3 +99,10 @@ p.paticka {
   display: flex;
   flex-direction: row;
 }
+
+
+.hlavicka {height: 200px; width: 
+  1000px; background: url(obr/hlavicka_2.jpg);}
+
+/*<div style="position: relative">
+  <img src="obr/hlavicka_2.jpg" />*/
