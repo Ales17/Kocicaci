@@ -58,5 +58,7 @@ padding: 2px 2px 2px 2px; color: white;
        margin: 0 0 15px 15px;
        }
              
- <!-- zadávání stran:  horní pravá dolní levá --> 
  
+/* flexbox for moje.html*/
+
+.item {display: flex; flex-direction: row;}
