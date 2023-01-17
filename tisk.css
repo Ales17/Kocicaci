@@ -1,0 +1,66 @@
+body {
+width: 1000px; margin: auto;
+font-family: "Ms Sans Serif", "Arial";
+line-height: 140%;
+}
+#hlavicka {display: none;}
+#menu{float:left; width: 150px; }
+#menu {
+padding: 0 0 0 0;
+list-style-type: none; 
+width: 150px; 
+line-height: 150%; 
+}
+a {text-decoration: underlined;}
+#menu li { 
+line-height: 150%; 
+width: 150px;
+}
+
+a.tlacitko {
+ 
+border: 1px solid;
+padding-left:2px;
+padding-right:auto;
+line-height: 170%;
+
+margin-top:3px;
+width: 140px;
+display:block;    
+
+}                                        <!--#99FF00 barva zelená-->
+a.tlacitko:hover, .pozice {border: 1px solid RED;}
+
+a {}
+
+p.podpis { font-style: italic ; text-align: right ;}
+
+p.paticka {color: black; text-align: center; border: 1px solid black; }
+
+ul.a, ul.b {
+list-style-type:none;
+padding-left: 0px;
+}
+
+#paticka
+{ text-align: center; color:black;   }
+
+.clear { 
+clear: both; 
+height: 1px; 
+font-size: 1px; 
+line-height: .5; 
+padding: 2px 2px 2px 2px;
+}
+
+.karta_leva, .karta_prava {
+ float: left; width: 170px; margin: 0 15px 15px 0; padding: 10px 0;
+ text-align: center; background: white; border: 1px solid black; font-size: 75%;
+       }
+.karta_prava {
+       float: right;
+       margin: 0 0 15px 15px;
+       }
+             
+ <!-- zadávání stran:  horní pravá dolní levá --> 
+ /* We remove the margin, padding, and list style of UL and LI components */
